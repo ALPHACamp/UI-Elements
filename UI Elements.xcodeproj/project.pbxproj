@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D30A41351CCE161100E5C55F /* XcodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30A41351CCE161100E5C55F /* UI Elements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI Elements.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30A41381CCE161100E5C55F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D30A413A1CCE161100E5C55F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D30A413D1CCE161100E5C55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		D30A41361CCE161100E5C55F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D30A41351CCE161100E5C55F /* XcodeDemo.app */,
+				D30A41351CCE161100E5C55F /* UI Elements.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D30A41341CCE161100E5C55F /* XcodeDemo */ = {
+		D30A41341CCE161100E5C55F /* UI Elements */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D30A41471CCE161100E5C55F /* Build configuration list for PBXNativeTarget "XcodeDemo" */;
+			buildConfigurationList = D30A41471CCE161100E5C55F /* Build configuration list for PBXNativeTarget "UI Elements" */;
 			buildPhases = (
 				D30A41311CCE161100E5C55F /* Sources */,
 				D30A41321CCE161100E5C55F /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = XcodeDemo;
+			name = "UI Elements";
 			productName = XcodeDemo;
-			productReference = D30A41351CCE161100E5C55F /* XcodeDemo.app */;
+			productReference = D30A41351CCE161100E5C55F /* UI Elements.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D30A41301CCE161100E5C55F /* Build configuration list for PBXProject "XcodeDemo" */;
+			buildConfigurationList = D30A41301CCE161100E5C55F /* Build configuration list for PBXProject "UI Elements" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D30A41341CCE161100E5C55F /* XcodeDemo */,
+				D30A41341CCE161100E5C55F /* UI Elements */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D30A41301CCE161100E5C55F /* Build configuration list for PBXProject "XcodeDemo" */ = {
+		D30A41301CCE161100E5C55F /* Build configuration list for PBXProject "UI Elements" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D30A41451CCE161100E5C55F /* Debug */,
@@ -293,7 +293,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D30A41471CCE161100E5C55F /* Build configuration list for PBXNativeTarget "XcodeDemo" */ = {
+		D30A41471CCE161100E5C55F /* Build configuration list for PBXNativeTarget "UI Elements" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D30A41481CCE161100E5C55F /* Debug */,

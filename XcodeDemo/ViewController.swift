@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     var timer: NSTimer!
     let imageNames = ["rabbit", "desert", "airplane"]
     
+    @IBOutlet weak var bigImageView: UIImageView!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var progressView: UIProgressView!
     @IBOutlet weak var label: UILabel!
@@ -55,6 +56,7 @@ class ViewController: UIViewController {
         if progressView.progress == 1.0 {
             progressView.hidden = true
             self.imageView.image = UIImage(named: timer.userInfo as! String)
+            self.bigImageView.image = UIImage(named: timer.userInfo as! String)
             timer.invalidate()
         } else {
             progressView.progress += 0.1

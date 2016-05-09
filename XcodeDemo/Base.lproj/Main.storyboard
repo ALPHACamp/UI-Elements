@@ -10,7 +10,7 @@
         <!--Playground-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="XcodeDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UI_Elements" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -66,6 +66,25 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="63P-Fp-LV1">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="omg-u5-euC"/>
+                                    <constraint firstAttribute="height" constant="240" id="tWf-mb-MeW"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="omg-u5-euC"/>
+                                        <exclude reference="tWf-mb-MeW"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="omg-u5-euC"/>
+                                        <include reference="tWf-mb-MeW"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IcV-Sg-Aul">
                                 <rect key="frame" x="20" y="20" width="240" height="128"/>
                                 <constraints>
@@ -80,7 +99,9 @@
                             <constraint firstItem="IcV-Sg-Aul" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8YM-8I-wqm"/>
                             <constraint firstItem="Cer-1l-YFd" firstAttribute="top" secondItem="H72-nb-3mL" secondAttribute="bottom" constant="8" id="EMJ-ie-cWW"/>
                             <constraint firstItem="IcV-Sg-Aul" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="GN0-Cu-5gx"/>
+                            <constraint firstItem="63P-Fp-LV1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="HEX-pR-lLd"/>
                             <constraint firstItem="oI0-Ou-Ina" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="HEc-nz-Che"/>
+                            <constraint firstItem="63P-Fp-LV1" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="HnG-f9-mex"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IcV-Sg-Aul" secondAttribute="bottom" constant="452" id="Kcq-rM-KRP"/>
                             <constraint firstItem="yKJ-i8-6Ug" firstAttribute="top" secondItem="oI0-Ou-Ina" secondAttribute="bottom" constant="8" id="Om0-fj-pX8"/>
                             <constraint firstItem="mw9-yN-zhR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="PIn-yE-TWY"/>
@@ -95,16 +116,29 @@
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="63P-Fp-LV1"/>
                                 <exclude reference="IcV-Sg-Aul"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="8YM-8I-wqm"/>
                                 <exclude reference="GN0-Cu-5gx"/>
+                                <exclude reference="HEX-pR-lLd"/>
+                                <exclude reference="HnG-f9-mex"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <include reference="63P-Fp-LV1"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="HEX-pR-lLd"/>
+                                <include reference="HnG-f9-mex"/>
                             </mask>
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Playground" id="YQQ-dC-peB"/>
                     <connections>
+                        <outlet property="bigImageView" destination="63P-Fp-LV1" id="58D-er-L1Z"/>
                         <outlet property="imageView" destination="mw9-yN-zhR" id="A4F-XC-Vms"/>
                         <outlet property="label" destination="Cer-1l-YFd" id="k14-iU-Kte"/>
                         <outlet property="progressView" destination="oI0-Ou-Ina" id="Cmx-AG-60F"/>
@@ -117,7 +151,7 @@
         <!--Root View Controller-->
         <scene sceneID="iSS-c5-bwR">
             <objects>
-                <tableViewController id="c1h-2e-8lg" customClass="TableViewController" customModule="XcodeDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="c1h-2e-8lg" customClass="TableViewController" customModule="UI_Elements" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="IoY-Hh-duj">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -158,7 +192,7 @@
         <!--Image View Controller-->
         <scene sceneID="ygY-rp-mdS">
             <objects>
-                <viewController id="y5M-cq-oF6" customClass="ImageViewController" customModule="XcodeDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="y5M-cq-oF6" customClass="ImageViewController" customModule="UI_Elements" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qpY-iL-QYz"/>
                         <viewControllerLayoutGuide type="bottom" id="U0A-hF-CgU"/>
@@ -180,6 +214,12 @@
                                     <constraint firstAttribute="trailing" secondItem="vq8-38-ArZ" secondAttribute="trailing" id="RvG-Pv-V01"/>
                                     <constraint firstAttribute="bottom" secondItem="vq8-38-ArZ" secondAttribute="bottom" id="u3u-0I-xBt"/>
                                 </constraints>
+                                <variation key="heightClass=compact" ambiguous="YES">
+                                    <rect key="frame" x="0.0" y="64" width="600" height="287"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES">
+                                    <rect key="frame" x="0.0" y="64" width="800" height="287"/>
+                                </variation>
                                 <connections>
                                     <outlet property="delegate" destination="y5M-cq-oF6" id="EjZ-hF-RJP"/>
                                 </connections>

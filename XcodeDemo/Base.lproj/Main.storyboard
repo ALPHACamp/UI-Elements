@@ -29,24 +29,15 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H72-nb-3mL">
                                 <rect key="frame" x="128" y="20" width="97" height="30"/>
                                 <state key="normal" title="change image"/>
-                                <connections>
-                                    <action selector="changeImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D5g-AP-iwF"/>
-                                </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="G8l-5X-Bdi">
                                 <rect key="frame" x="18" y="182" width="118" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="114" id="aTh-mV-R9w"/>
                                 </constraints>
-                                <connections>
-                                    <action selector="sliderChangged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ym6-F6-Cuj"/>
-                                </connections>
                             </slider>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" maximumValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="yKJ-i8-6Ug">
                                 <rect key="frame" x="20" y="138" width="94" height="29"/>
-                                <connections>
-                                    <action selector="stepperChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="qH9-8b-17Y"/>
-                                </connections>
                             </stepper>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oI0-Ou-Ina">
                                 <rect key="frame" x="20" y="128" width="97" height="2"/>
@@ -137,12 +128,6 @@
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Playground" id="YQQ-dC-peB"/>
-                    <connections>
-                        <outlet property="bigImageView" destination="63P-Fp-LV1" id="58D-er-L1Z"/>
-                        <outlet property="imageView" destination="mw9-yN-zhR" id="A4F-XC-Vms"/>
-                        <outlet property="label" destination="Cer-1l-YFd" id="k14-iU-Kte"/>
-                        <outlet property="progressView" destination="oI0-Ou-Ina" id="Cmx-AG-60F"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

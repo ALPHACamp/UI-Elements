@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D300F62F1CF698F3004E6872 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D300F62E1CF698F3004E6872 /* ImageViewController.swift */; };
+		D30FBE181CFF354700C7A8DA /* DeleteableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30FBE171CFF354700C7A8DA /* DeleteableTableViewController.swift */; };
+		D31959DE1CFFDD0F0056EBC1 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31959DD1CFFDD0F0056EBC1 /* TestTableViewController.swift */; };
+		D31959E01CFFEAAF0056EBC1 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31959DF1CFFEAAF0056EBC1 /* Image.swift */; };
+		D31959E31CFFEDA80056EBC1 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31959E11CFFEDA80056EBC1 /* ImageTableViewCell.swift */; };
+		D31959E41CFFEDA80056EBC1 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31959E21CFFEDA80056EBC1 /* ImageTableViewCell.xib */; };
+		D329E6B21CF3FC0F0040942C /* PlaygroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329E6B11CF3FC0F0040942C /* PlaygroundViewController.swift */; };
+		D32DBF281CFE8DE600F1FF98 /* ImagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DBF271CFE8DE600F1FF98 /* ImagesTableViewController.swift */; };
 		D3C5716B1CF29FDB00E7C5C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5716A1CF29FDB00E7C5C2 /* AppDelegate.swift */; };
 		D3C5716D1CF29FDB00E7C5C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5716C1CF29FDB00E7C5C2 /* ViewController.swift */; };
 		D3C571701CF29FDB00E7C5C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C5716E1CF29FDB00E7C5C2 /* Main.storyboard */; };
 		D3C571721CF29FDB00E7C5C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C571711CF29FDB00E7C5C2 /* Assets.xcassets */; };
 		D3C571751CF29FDB00E7C5C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C571731CF29FDB00E7C5C2 /* LaunchScreen.storyboard */; };
+		D3C610401D013826003038B9 /* ClickableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C6103F1D013826003038B9 /* ClickableTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D300F62E1CF698F3004E6872 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		D30FBE171CFF354700C7A8DA /* DeleteableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteableTableViewController.swift; sourceTree = "<group>"; };
+		D31959DD1CFFDD0F0056EBC1 /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		D31959DF1CFFEAAF0056EBC1 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		D31959E11CFFEDA80056EBC1 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		D31959E21CFFEDA80056EBC1 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		D329E6B11CF3FC0F0040942C /* PlaygroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundViewController.swift; sourceTree = "<group>"; };
+		D32DBF271CFE8DE600F1FF98 /* ImagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesTableViewController.swift; sourceTree = "<group>"; };
 		D3C571671CF29FDB00E7C5C2 /* XcodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C5716A1CF29FDB00E7C5C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C5716C1CF29FDB00E7C5C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,7 @@
 		D3C571711CF29FDB00E7C5C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3C571741CF29FDB00E7C5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3C571761CF29FDB00E7C5C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C6103F1D013826003038B9 /* ClickableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickableTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,15 @@
 				D3C571711CF29FDB00E7C5C2 /* Assets.xcassets */,
 				D3C571731CF29FDB00E7C5C2 /* LaunchScreen.storyboard */,
 				D3C571761CF29FDB00E7C5C2 /* Info.plist */,
+				D329E6B11CF3FC0F0040942C /* PlaygroundViewController.swift */,
+				D300F62E1CF698F3004E6872 /* ImageViewController.swift */,
+				D32DBF271CFE8DE600F1FF98 /* ImagesTableViewController.swift */,
+				D30FBE171CFF354700C7A8DA /* DeleteableTableViewController.swift */,
+				D31959DD1CFFDD0F0056EBC1 /* TestTableViewController.swift */,
+				D31959DF1CFFEAAF0056EBC1 /* Image.swift */,
+				D31959E11CFFEDA80056EBC1 /* ImageTableViewCell.swift */,
+				D31959E21CFFEDA80056EBC1 /* ImageTableViewCell.xib */,
+				D3C6103F1D013826003038B9 /* ClickableTableViewCell.swift */,
 			);
 			path = XcodeDemo;
 			sourceTree = "<group>";
@@ -123,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3C571751CF29FDB00E7C5C2 /* LaunchScreen.storyboard in Resources */,
+				D31959E41CFFEDA80056EBC1 /* ImageTableViewCell.xib in Resources */,
 				D3C571721CF29FDB00E7C5C2 /* Assets.xcassets in Resources */,
 				D3C571701CF29FDB00E7C5C2 /* Main.storyboard in Resources */,
 			);
@@ -136,7 +164,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3C5716D1CF29FDB00E7C5C2 /* ViewController.swift in Sources */,
+				D31959E01CFFEAAF0056EBC1 /* Image.swift in Sources */,
+				D3C610401D013826003038B9 /* ClickableTableViewCell.swift in Sources */,
 				D3C5716B1CF29FDB00E7C5C2 /* AppDelegate.swift in Sources */,
+				D300F62F1CF698F3004E6872 /* ImageViewController.swift in Sources */,
+				D30FBE181CFF354700C7A8DA /* DeleteableTableViewController.swift in Sources */,
+				D32DBF281CFE8DE600F1FF98 /* ImagesTableViewController.swift in Sources */,
+				D31959E31CFFEDA80056EBC1 /* ImageTableViewCell.swift in Sources */,
+				D329E6B21CF3FC0F0040942C /* PlaygroundViewController.swift in Sources */,
+				D31959DE1CFFDD0F0056EBC1 /* TestTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +324,7 @@
 				D3C5717B1CF29FDB00E7C5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
